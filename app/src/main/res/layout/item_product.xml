@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/product_title"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="24sp"
+            android:text="Paket Gratis"
+            android:textColor="@color/colorSecondBtn"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_title"
+            android:id="@+id/product_rp"
+            android:layout_marginLeft="16dp"
+            android:textSize="24sp"
+            android:text="Rp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_title"
+            android:layout_toRightOf="@id/product_rp"
+            android:id="@+id/product_price"
+            android:textSize="50sp"
+            android:text="5.000.000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_title"
+            android:layout_toRightOf="@id/product_price"
+            android:id="@+id/product_per"
+            android:textSize="54sp"
+            android:text="/"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/product_title"
+            android:layout_toRightOf="@id/product_per"
+            android:textSize="24sp"
+            android:layout_marginTop="32dp"
+            android:text="Bulan"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_below="@id/product_price"
+            android:id="@+id/rv_product_benefit"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Langganan"
+            android:id="@+id/btn_product_subs"
+            android:layout_below="@id/rv_product_benefit"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/text_white"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

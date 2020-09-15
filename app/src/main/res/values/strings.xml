@@ -1,0 +1,100 @@
+<resources>
+    <integer-array name="array_icon_cat">
+        <item>@drawable/peraturan</item>
+        <item>@drawable/peraturan</item>
+        <item>@drawable/seminar</item>
+        <item>@drawable/yuris</item>
+        <item>@drawable/dok_dan_akta</item>
+        <item>@drawable/kamus_hukum</item>
+        <item>@drawable/peraturan</item>
+        <item>@drawable/infografis</item>
+        <item>@drawable/layanan_online</item>
+        <item>@drawable/artikel</item>
+        <item>@drawable/infografis</item>
+        <item>@drawable/tutorial</item>
+    </integer-array>
+    <string name="app_name">Irma Devita</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="telepon">Telepon</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="home">Beranda</string>
+    <string name="products">Paket</string>
+    <string name="forum">Forum</string>
+    <string name="chat">Chat</string>
+    <string name="fb_login_protocol_scheme">fbFACEBOOK-APP-ID</string>
+    <string name="facebook_app_id">FACEBOOK-APP-ID</string>
+    <string name="daftar">Daftar</string>
+    <string name="masuk">Masuk</string>
+    <string name="account">account</string>
+    <string name="write">Write</string>
+    <string name="notifikasi">Notifikasi</string>
+    <string name="desc_forget_passwd">Tuliskan alamat email anda dibawah ini dan admin akan menghubungi anda</string>
+    <string name="content_thread_text">Ini thread coba-coba yang gunanya untuk melihat tampilan aplikasi IDLC.
+        Tulisannya tidak jelas seperti kisah cintamu. Semuanya abu-abu bagaikan gula batu. Harusnya thread yang dipakai untuk contoh lebih bagus
+        tapi berhubung tidak ada hubungannya dengan development maka programmer membuat tulisan acak-acakan ini sebagai contohnya.
+        Udah deh jangan banyak ching-chong, gausah dibaca kalo jijik.
+        Ini thread coba-coba yang gunanya untuk melihat tampilan aplikasi IDLC.
+        Tulisannya tidak jelas seperti kisah cintamu. Semuanya abu-abu bagaikan gula batu. Harusnya thread yang dipakai untuk contoh lebih bagus
+        tapi berhubung tidak ada hubungannya dengan development maka programmer membuat tulisan acak-acakan ini sebagai contohnya.
+        Udah deh jangan banyak ching-chong, gausah dibaca kalo jijik
+        Ini thread coba-coba yang gunanya untuk melihat tampilan aplikasi IDLC.
+        Tulisannya tidak jelas seperti kisah cintamu. Semuanya abu-abu bagaikan gula batu. Harusnya thread yang dipakai untuk contoh lebih bagus
+        tapi berhubung tidak ada hubungannya dengan development maka programmer membuat tulisan acak-acakan ini sebagai contohnya.
+        Udah deh jangan banyak ching-chong, gausah dibaca kalo jijik</string>
+    <string name="konfirmasi_kata_sandi">Konfirmasi kata sandi</string>
+    <string name="kategori_konten">Kategori Konten</string>
+    <string name="cari_txt">Cari</string>
+    <string name="title_search">Cari dokumen</string>
+    <string name="not_valid_email">Email tidak valid</string>
+    <string name="must_not_blank">Field harus diisi</string>
+    <string name="must_valid">Field harus diisi dengan benar</string>
+    <string name="must_same_passwd">Password harus sama</string>
+    <string name="passwd_criteria">Password minimal lebih dari 8 karakter</string>
+    <string name="verif_detail_txt">Mohon untuk membuka tautan yang telah dikirimkan ke email terdaftar anda(cek folder spam bila email tidak ada di inbox). Apabila tautan telah kedaluarsa, masukkan email terdaftar anda dan klik tombol kirim ulang dibawah ini.</string>
+    <string name="resend_email_txt">Kirim ulang tautan</string>
+    <string name="first_payment_detail">Untuk melakukan verifikasi pembayaran lakukan transfer ke rekening xxx lalu kirimkan bukti transfer ke nomor 087703156387</string>
+    <string name="second_payment_detail">Jangan lupa menyertakan nama lengkap dan alamat email yang anda gunakan saat pendaftaran pada saat mengirimkan bukti pembayaran. Mohon menunggu sampai admin memverifikasi pembayaran Anda.</string>
+    <string name="payment_detail_title">Keterangan Pembayaran</string>
+    <string name="form_product_desc">Dapatkan layanan khusus dibidang hukum hanya untuk anda.</string>
+    <string name="onboard_title_1">Belajar hukum lebih mudah dan praktis</string>
+    <string name="onboard_desc_1">Segala materi dan informasi tentang hukum tersedia dalam satu aplikasi</string>
+    <string name="onboard_title_2">Diskusi dalam forum tanya jawab</string>
+    <string name="onboard_desc_2">Diskusi bersama ahlinya dengan peraturan terbaru yang mendukung artikel</string>
+    <string name="onboard_title_3">Telusuri segala informasi dan ilmu hukum</string>
+    <string name="onboard_desc_3">Artikel-artikel hukum, kamus hukum, layanan hukum, dan video tutorial</string>
+    <string name="string_skip">Lewati</string>
+    <string name="string_selanjutnya">Selanjutnya</string>
+    <string name="string_mulai">Mulai</string>
+    <string name="no_content_txt">Tidak ada konten</string>
+    <string name="related_docs_txt">Dokumen terkait</string>
+    <string name="prev_docs_txt">Dokumen versi sebelumnya</string>
+    <string name="open_txt">Buka</string>
+    <string name="save_txt">Simpan</string>
+    <string name="download_message_text">Mengunduh file, silahkan tunggu</string>
+    <string name="create_account">Buat akun</string>
+    <string name="selamat_datang_txt">Selamat Datang</string>
+    <string name="app_title_desc_txt">Cari tahu informasi tentang hukum</string>
+    <string name="verif_link_sent_txt">Link verifikasi telah dikirim ke </string>
+    <string name="verif_activity_name_txt">Verifikasi Akun</string>
+    <string name="not_verif_txt">Akun Anda belum diverifikasi</string>
+    <string name="kota">Kota</string>
+    <string name="ask_us">Ketik pesan...</string>
+    <string name="title_activity_seminar">SeminarActivity</string>
+    <string name="tab_text_1">Upcoming</string>
+    <string name="tab_text_2">Past Event</string>
+    <string name="seminar_list_txt">Daftar Seminar</string>
+    <string name="jadwal_kegiatan_txt">Jadwal Kegiatan</string>
+    <string name="day_txt">Hari</string>
+    <string name="date_txt">Tanggal</string>
+    <string name="place_txt">Tempat</string>
+    <string name="cost_txt">Biaya</string>
+    <string name="mark_">: </string>
+    <string name="loading_chat_txt">Loading chat</string>
+    <string name="load_admin_list_txt">Memuat daftar admin</string>
+    <string name="new_message_txt">Pesan baru dari</string>
+    <string name="notifikasi_subtext">ketuk untuk melihat pesan</string>
+    <string name="chat_reminder">Notifikasi pesan</string>
+    <string name="chat_detail">Anda akan menerima notifikasi ketika mendapatkan pesan baru</string>
+    <string name="double_back_txt">Tekan tombol kembali sekali lagi untuk keluar</string>
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PaymentActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="@string/payment_detail_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/tv_title"
+        android:textColor="@color/text_color"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/onboard3"
+        android:id="@+id/img_verify"
+        android:layout_below="@id/tv_title"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/text_color"
+        android:textSize="14sp"
+        android:layout_below="@id/img_verify"
+        android:layout_marginTop="16dp"
+        android:id="@+id/tv_detail_verify"
+        android:text="@string/first_payment_detail"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/text_color"
+        android:textSize="14sp"
+        android:layout_below="@id/tv_detail_verify"
+        android:layout_marginTop="16dp"
+        android:id="@+id/tv_detail2_verify"
+        android:text="@string/second_payment_detail"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textColor="@color/text_color"
+        android:textSize="14sp"
+        android:layout_below="@id/tv_detail2_verify"
+        android:layout_marginTop="16dp"
+        android:text="Selama pembayaran masih belum diverifikasi, Anda masih bisa mengakses dokumen-dokumen gratis yanhg ada pada aplikasi IDLC ini."/>
+
+</RelativeLayout>

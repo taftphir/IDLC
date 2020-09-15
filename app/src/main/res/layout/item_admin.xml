@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/text_white"
+    android:id="@+id/layout_item_admin">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/user_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/img_icon_user"/>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Admin"
+        android:layout_toRightOf="@id/img_icon_user"
+        android:id="@+id/admin_name_tv"
+        android:textSize="18sp"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@color/admin_online"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/admin_name_tv"
+        android:id="@+id/admin_online_iv"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:alpha=".5"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/gray" />
+
+</RelativeLayout>

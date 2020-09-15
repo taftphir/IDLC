@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#405FA0</color>
+    <color name="colorPrimaryDark">#334A79</color>
+    <color name="colorAccent">#7CB9E7</color>
+    <color name="colorSecondBtn">#FF6060</color>
+    <color name="not_valid_color">#F62121</color>
+    <color name="text_color">#000</color>
+    <color name="bg_related_docs">#E0E9FA</color>
+    <color name="gray">#828282</color>
+    <color name="secondary_bg">#DBDADA</color>
+    <color name="text_white">#F2F2F2</color>
+    <color name="admin_online">#7DE813</color>
+</resources>

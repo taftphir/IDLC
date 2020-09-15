@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_menu"
+        android:title="@string/home"
+        android:icon="@drawable/ic_action_home"/>
+
+    <item
+        android:id="@+id/product_menu"
+        android:title="@string/products"
+        android:icon="@drawable/ic_action_product"/>
+
+    <item
+        android:id="@+id/forum_menu"
+        android:title="@string/forum"
+        android:icon="@drawable/ic_action_forum"/>
+    <item
+        android:id="@+id/chat_menu"
+        android:title="@string/chat"
+        android:icon="@drawable/ic_action_chat"/>
+
+    <item
+        android:id="@+id/account_menu"
+        android:title="@string/chat"
+        android:icon="@drawable/icon_akun_inactive"/>
+
+</menu>

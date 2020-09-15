@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/ic_action_check"
+        android:id="@+id/benefit_img_check"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/benefit_img_check"
+        android:id="@+id/benefit_title_tv"
+        android:textSize="12sp"
+        android:layout_centerVertical="true"
+        android:text="Mendapatkan akses VPN"/>
+
+</RelativeLayout>

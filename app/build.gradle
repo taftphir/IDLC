@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.alugara.idlc"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        buildConfigField "String", "BASE_URL", "\"http://apiidlc.alugarainovasi.com/index.php/\""
+        buildConfigField "String", "BASE_IMAGE_URL", "\"http://idlc.alugarainovasi.com/upload/files/\""
+        buildConfigField "String", "BASE_IMAGE_SEMINAR", "\"http://idlc.alugarainovasi.com/assets/images/seminar/\""
+        buildConfigField "String", "BASE_IMAGE_ARTIKEL", "\"http://idlc.alugarainovasi.com/assets/images/artikel/\""
+        buildConfigField "String", "BASE_IMAGE_FILES", "\"http://idlc.alugarainovasi.com/assets/images/files/\""
+        buildConfigField "String", "BASE_IMAGE_VIDEO", "\"http://idlc.alugarainovasi.com/assets/images/video/\""
+        buildConfigField "String", "BASE_IMAGE_VIDEO", "\"http://idlc.alugarainovasi.com/assets/images/konten/\""
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'de.hdodenhof:circleimageview:2.1.0'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.synnapps:carouselview:0.1.4'
+    implementation 'com.google.android.gms:play-services-auth:15.0.1'
+    implementation 'com.facebook.android:facebook-login:[4,5)'
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.github.barteksc:android-pdf-viewer:3.0.0-beta.5'
+    implementation 'com.github.barteksc:pdfium-android:1.8.2'
+    implementation 'com.miguelcatalan:materialsearchview:1.4.0'
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    annotationProcessor "android.arch.lifecycle:compiler:1.1.1"
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.android.support:design:28.0.0'
+}
